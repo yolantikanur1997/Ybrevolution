@@ -1,0 +1,467 @@
+body{
+	background: rgba(102,204,255,0.2);
+}
+.d-block{
+	width: 100%;
+	height: 550px;
+}
+
+.navbar{	
+	background:#778899; 
+	width: 100%;
+
+}
+.dropdown-item{
+	cursor: pointer;
+	width: auto;
+}
+.dropdown-item:hover{
+	background: #778899;
+	color: #FFFFFF;
+}
+.flashcard{
+	width: 462px;
+	height: 262px;
+	position: relative;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transition: transform 600ms ease;
+
+}
+.flashcard-1{
+	width: 462px;
+	height: 262px;
+	position: relative;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transition: transform 600ms ease;
+
+}
+.flashcard-2{
+	width: 462px;
+	height: 262px;
+	position: relative;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transition: transform 600ms ease;
+
+}
+.flashcard-3{
+	width: 462px;
+	height: 262px;
+	position: relative;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transition: transform 600ms ease;
+
+}
+.flashcard-4{
+	width: 462px;
+	height: 262px;
+	position: relative;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transition: transform 600ms ease;
+
+}
+.flashcard-5{
+	width: 462px;
+	height: 262px;
+	position: relative;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transition: transform 600ms ease;
+
+}
+.flashface{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	line-height: 262px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	backface-visibility: hidden;
+}
+.flashface h2{
+	font-weight: 100;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.card-flipped{
+	transform: rotateY(180deg);
+}
+.card-info{
+	font-size: 24px;
+	font-weight: 100;
+}
+.flashface-front{
+	background: #778899;
+	box-shadow: 0px 4px 12px rgba(105, 6, 38, 0.25);
+	border-radius: 12px;
+	transition: 250ms ease;
+}
+.flashface-front:hover{
+	background: #BC144A;
+
+
+}
+.flashface-back{
+	background: #BC144A;
+	box-shadow: 0px 4px 12px rgba(105, 6, 38, 0.25);
+	border-radius: 12px;
+	transform: rotateY(180deg);
+}
+.footer{
+	width: 100%;
+	height: 600px;
+	background: #000000;
+}
+.btn-group-vertical{
+	margin-top: 60px;
+	margin-left:50px;
+	float: left;
+	width: 300px;
+}
+.fol{
+	color: #FFFFFF;
+}
+.gb{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	
+}
+.lb{
+	color: white;
+	margin-left: 8px;
+}
+.item{
+	width: 500px;
+	height: 300px;
+	float: right;
+}
+.item h4{
+	color: whitesmoke;
+}
+.item p{
+	color: #FFFFFF;
+	text-align: justify;
+}
+.fot{
+	color: #FFFFFF;
+	padding-top: 20%;
+	margin-left:50px;
+
+}
+.fol{
+	color: #000000;
+}
+hr{
+	background: white;
+}
+.jns{
+	margin-left: 3%;	
+	font-weight: 200;
+	text-align: center;
+}
+.jns-1{
+	color: orange;
+	font-weight: 400;
+}
+.test{
+	width: 100%;
+	height: auto;
+
+}
+.card-img-to{
+	width: 100%;
+	height: 600px;
+} 
+body{ font-family: Arial, Halvetica, sans-serif; }
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+  /* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modall {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modall-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 0px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 90px;
+  border-radius: 50%;
+}
+/* The Close Button (x) */
+.closes {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closes:hover,
+.closes:focus {
+  color: red;
+  cursor: pointer;
+}
+  /* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.col-sm-8{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.daf a{
+	color: blue;
+	text-decoration: none;
+}
+.daf a:hover{
+	color: red;
+	
+}
+.input-group{
+	width: 100%;
+}
+.input-group .form-control{
+	width: 500px;
+}
+.avatar{
+	width: 90px;
+}
+
+/* The Modal (background) */
+.modal-2 {
+  display: none; /* Hidden by default */
+  position: relative; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal-2 Content */
+.modal-2-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 55%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-2-header {
+  padding: 2px 16px;
+  background-color: #5F9EA0;
+  color: white;
+}
+
+.modal-2-body {margin: auto;width: 95%;padding: 2px 16px;}
+
+.modal-2-footer {
+  padding: 2px 16px;
+  background-color: #5F9EA0;
+  color: white;
+}
+.fn{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-weight: 100;
+  transform: translate(-50%, -50%);
+}
+
+.spn::before{
+content: "";
+animation: words 6s infinite;
+color: #FFD700;
+}
+
+@keyframes words{
+10%{content: "Pelajar.";} 25%{content: "Mahasiswa.";}
+50%{content: "Mahasiswa Akhir.";} 75%{content: "Umum";}
+100%{content: "Semuanya";}
+}
+
+.fnh2{
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-weight: 100;
+  font-size: 25px;
+}

@@ -1,0 +1,56 @@
+
+.card-group{
+	margin: 3px;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.card-group-1{
+	width: 50%;
+	height: auto;
+	border: outset;
+}
+.card-header{
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	height: 80px;
+	width: 100%;
+	background: none;
+	color: black;
+	font-size:larger;
+}
+.card-body{
+	background: whitesmoke;
+}
+.card-isi{
+	text-align: justify;
+}
+.card-body ul{
+	padding-left: 25px;
+}
+.card-body ul li{
+ list-style-type: decimal;
+}
+.card-footer{
+	color: black;
+	
+}
+.li-isi{
+	color: blue;
+}
+.li-isi-1{
+	color: red;
+}
+.gb{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+}
+.fol{
+	font-weight: bold;
+
+}
+.row-1{
+	color: #000000;
+}
