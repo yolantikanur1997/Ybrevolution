@@ -1,467 +1,153 @@
-body{
-	background: rgba(102,204,255,0.2);
+.w3-display-bottomleft a{
+  text-decoration: none;
 }
-.d-block{
-	width: 100%;
-	height: 550px;
+.w3-display-bottomleft .fa{
+ cursor: pointer;
+}
+.w3-display-bottomleft .fa:hover{
+ color: white;
+}
+#about .w3-quarter{
+  width: 430px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
 }
 
-.navbar{	
-	background:#778899; 
-	width: 100%;
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
-.dropdown-item{
-	cursor: pointer;
-	width: auto;
-}
-.dropdown-item:hover{
-	background: #778899;
-	color: #FFFFFF;
-}
-.flashcard{
-	width: 462px;
-	height: 262px;
-	position: relative;
-	cursor: pointer;
-	transform-style: preserve-3d;
-	transition: transform 600ms ease;
 
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-.flashcard-1{
-	width: 462px;
-	height: 262px;
-	position: relative;
-	cursor: pointer;
-	transform-style: preserve-3d;
-	transition: transform 600ms ease;
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
 }
-.flashcard-2{
-	width: 462px;
-	height: 262px;
-	position: relative;
-	cursor: pointer;
-	transform-style: preserve-3d;
-	transition: transform 600ms ease;
 
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
 }
-.flashcard-3{
-	width: 462px;
-	height: 262px;
-	position: relative;
-	cursor: pointer;
-	transform-style: preserve-3d;
-	transition: transform 600ms ease;
 
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
-.flashcard-4{
-	width: 462px;
-	height: 262px;
-	position: relative;
-	cursor: pointer;
-	transform-style: preserve-3d;
-	transition: transform 600ms ease;
 
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
 }
-.flashcard-5{
-	width: 462px;
-	height: 262px;
-	position: relative;
-	cursor: pointer;
-	transform-style: preserve-3d;
-	transition: transform 600ms ease;
 
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: black;}
+
+.author a{
+  color: blue;
 }
-.flashface{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	line-height: 262px;
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	font-size: 40px;
-	backface-visibility: hidden;
-}
-.flashface h2{
-	font-weight: 100;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	margin-bottom: 0;
-	margin-top: 0;
-}
-.card-flipped{
-	transform: rotateY(180deg);
-}
-.card-info{
-	font-size: 24px;
-	font-weight: 100;
-}
-.flashface-front{
-	background: #778899;
-	box-shadow: 0px 4px 12px rgba(105, 6, 38, 0.25);
-	border-radius: 12px;
-	transition: 250ms ease;
-}
-.flashface-front:hover{
-	background: #BC144A;
 
 
+.card-group{
+  margin: 3px;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
-.flashface-back{
-	background: #BC144A;
-	box-shadow: 0px 4px 12px rgba(105, 6, 38, 0.25);
-	border-radius: 12px;
-	transform: rotateY(180deg);
+.card-group-1{
+  width: 50%;
+  height: auto;
+  border: outset;
 }
-.footer{
-	width: 100%;
-	height: 600px;
-	background: #000000;
+.card-header{
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  height: 80px;
+  width: 100%;
+  background: none;
+  color: black;
+  font-size:larger;
 }
-.btn-group-vertical{
-	margin-top: 60px;
-	margin-left:50px;
-	float: left;
-	width: 300px;
+.card-body{
+  background: whitesmoke;
 }
-.fol{
-	color: #FFFFFF;
+.card-isi{
+  text-align: justify;
+}
+.card-body ul{
+  padding-left: 25px;
+}
+.card-body ul li{
+ list-style-type: decimal;
+}
+.card-footer{
+  color: black;
+  
+}
+.li-isi{
+  color: yellow;
+}
+.li-isi-1{
+  color: aqua;
 }
 .gb{
-	width: 30px;
-	height: 30px;
-	margin-top: 5px;
-	
-}
-.lb{
-	color: white;
-	margin-left: 8px;
-}
-.item{
-	width: 500px;
-	height: 300px;
-	float: right;
-}
-.item h4{
-	color: whitesmoke;
-}
-.item p{
-	color: #FFFFFF;
-	text-align: justify;
-}
-.fot{
-	color: #FFFFFF;
-	padding-top: 20%;
-	margin-left:50px;
-
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
 }
 .fol{
-	color: #000000;
-}
-hr{
-	background: white;
-}
-.jns{
-	margin-left: 3%;	
-	font-weight: 200;
-	text-align: center;
-}
-.jns-1{
-	color: orange;
-	font-weight: 400;
-}
-.test{
-	width: 100%;
-	height: auto;
-
-}
-.card-img-to{
-	width: 100%;
-	height: 600px;
-} 
-body{ font-family: Arial, Halvetica, sans-serif; }
-
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
   font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
+}
+.row-1{
+  color: #000000;
+}
+.w3-row-padding .w3-col{
+cursor: pointer;
+}
+.um{
   color: red;
-  cursor: pointer;
-}
-  /* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-.modall {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modall-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 50%; /* Could be more or less, depending on screen size */
-}
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 0px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 90px;
-  border-radius: 50%;
-}
-/* The Close Button (x) */
-.closes {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
   font-weight: bold;
-}
-
-.closes:hover,
-.closes:focus {
-  color: red;
-  cursor: pointer;
-}
-  /* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
-.col-sm-8{
-	width: 100%;
-	height: auto;
-	margin: auto;
-}
-
-.daf a{
-	color: blue;
-	text-decoration: none;
-}
-.daf a:hover{
-	color: red;
-	
-}
-.input-group{
-	width: 100%;
-}
-.input-group .form-control{
-	width: 500px;
-}
-.avatar{
-	width: 90px;
-}
-
-/* The Modal (background) */
-.modal-2 {
-  display: none; /* Hidden by default */
-  position: relative; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 20px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-
-}
-
-/* Modal-2 Content */
-.modal-2-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: 55%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.modal-2-header {
-  padding: 2px 16px;
-  background-color: #5F9EA0;
-  color: white;
-}
-
-.modal-2-body {margin: auto;width: 95%;padding: 2px 16px;}
-
-.modal-2-footer {
-  padding: 2px 16px;
-  background-color: #5F9EA0;
-  color: white;
-}
-.fn{
-  color: white;
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  font-weight: 100;
-  transform: translate(-50%, -50%);
-}
-
-.spn::before{
-content: "";
-animation: words 6s infinite;
-color: #FFD700;
-}
-
-@keyframes words{
-10%{content: "Pelajar.";} 25%{content: "Mahasiswa.";}
-50%{content: "Mahasiswa Akhir.";} 75%{content: "Umum";}
-100%{content: "Semuanya";}
-}
-
-.fnh2{
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 10%;
-  font-weight: 100;
-  font-size: 25px;
 }
